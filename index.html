@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – MedTranslate AR</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #f7f6f2;
+      --surface: #ffffff;
+      --accent: #1a5c4a;
+      --accent-light: #e8f4f0;
+      --text: #1c1c1c;
+      --muted: #6b7280;
+      --border: #e2e0d8;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 300;
+      line-height: 1.8;
+      font-size: 16px;
+    }
+
+    header {
+      background: var(--accent);
+      color: white;
+      padding: 60px 24px 48px;
+      text-align: center;
+    }
+
+    header .app-tag {
+      display: inline-block;
+      background: rgba(255,255,255,0.15);
+      border: 1px solid rgba(255,255,255,0.3);
+      border-radius: 20px;
+      padding: 4px 16px;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+
+    header h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 400;
+      margin-bottom: 12px;
+    }
+
+    header p {
+      font-size: 14px;
+      opacity: 0.75;
+    }
+
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0 24px 80px;
+    }
+
+    .disclaimer {
+      background: var(--accent-light);
+      border-left: 3px solid var(--accent);
+      border-radius: 0 8px 8px 0;
+      padding: 16px 20px;
+      margin: 40px 0 48px;
+      font-size: 14px;
+      color: var(--accent);
+      font-weight: 500;
+    }
+
+    section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 32px;
+      margin-bottom: 20px;
+    }
+
+    section h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.25rem;
+      font-weight: 400;
+      color: var(--accent);
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    section h3 {
+      font-size: 0.9rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      margin: 24px 0 8px;
+    }
+
+    section h3:first-of-type {
+      margin-top: 0;
+    }
+
+    p { margin-bottom: 12px; }
+    p:last-child { margin-bottom: 0; }
+
+    ul {
+      padding-left: 20px;
+      margin-bottom: 12px;
+    }
+
+    ul li {
+      margin-bottom: 6px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .highlight-box {
+      background: var(--accent-light);
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin-top: 16px;
+      font-size: 14px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 24px;
+      font-size: 13px;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+    }
+
+    footer strong {
+      color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="app-tag">Legal</div>
+  <h1>Privacy Policy</h1>
+  <p>MedTranslate AR &nbsp;·&nbsp; Last Updated: June 2026</p>
+</header>
+
+<div class="container">
+
+  <div class="disclaimer">
+    ⚕️ This app processes medical information. Please read this policy carefully before use.
+  </div>
+
+  <section>
+    <h2>1. Introduction</h2>
+    <p>MedTranslate AR ("we," "our," or "the App") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our mobile application.</p>
+  </section>
+
+  <section>
+    <h2>2. Information We Collect</h2>
+
+    <h3>2.1 Camera and Image Data</h3>
+    <p><strong>What we collect:</strong> When you use the scan feature, we access your device's camera to capture images of prescription labels, medication packaging, or barcodes.</p>
+    <p><strong>How we use it:</strong> These images are processed locally on your device and temporarily sent to our AI service provider (Groq) for text extraction and translation. Images are not permanently stored on our servers.</p>
+
+    <h3>2.2 Prescription and Medical Information</h3>
+    <p><strong>What we collect:</strong> Text extracted from prescription labels, including medication names, dosages, and instructions.</p>
+    <p><strong>How we use it:</strong> This information is processed by our AI service to provide simplified translations in your preferred language. The processed results are stored locally on your device.</p>
+
+    <h3>2.3 Device Storage</h3>
+    <p><strong>What we collect:</strong> We use your device's local storage (AsyncStorage) to save your scan history, saved translations, app settings, and language preferences.</p>
+    <p><strong>How we use it:</strong> This data remains on your device and is not transmitted to our servers unless you choose to export or share it.</p>
+
+    <h3>2.4 Microphone Data</h3>
+    <p><strong>What we collect:</strong> We may access your device's microphone for the read-aloud translation feature.</p>
+    <p><strong>How we use it:</strong> Audio is processed locally on your device and is not stored or transmitted.</p>
+
+    <h3>2.5 App Usage Data</h3>
+    <p><strong>What we collect:</strong> Basic app usage metrics such as which features you use and how often.</p>
+    <p><strong>How we use it:</strong> This helps us improve the app's functionality and user experience.</p>
+  </section>
+
+  <section>
+    <h2>3. Third-Party Services</h2>
+
+    <h3>3.1 Groq AI Services</h3>
+    <p>We use Groq's AI services to process prescription text and generate translations.</p>
+    <ul>
+      <li><strong>Data transmission:</strong> Prescription text (not images) is sent to Groq's servers for processing.</li>
+      <li><strong>Data retention:</strong> Groq does not store your data permanently. Their privacy policy is available at <a href="https://groq.com/privacy" target="_blank">groq.com/privacy</a>.</li>
+    </ul>
+
+    <h3>3.2 Open Food Facts and UPC Item DB</h3>
+    <p>For barcode lookups, we may query Open Food Facts and UPC Item DB databases. These services are used solely to identify product information. No personal data is shared with these services.</p>
+  </section>
+
+  <section>
+    <h2>4. Data Storage and Retention</h2>
+    <ul>
+      <li><strong>Local storage:</strong> Your scan history, saved translations, and settings are stored locally on your device using AsyncStorage.</li>
+      <li><strong>Cloud storage:</strong> We do not store your data on our servers.</li>
+      <li><strong>Data deletion:</strong> You can delete all app data at any time through the Settings screen ("Clear all data" option).</li>
+      <li><strong>Third-party retention:</strong> Our AI service provider (Groq) does not retain your data after processing.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>5. Data Security</h2>
+    <p>We implement reasonable security measures to protect your information:</p>
+    <ul>
+      <li>All data transmitted to third-party services is encrypted using HTTPS/TLS.</li>
+      <li>Local data is stored securely on your device.</li>
+      <li>We do not sell, rent, or share your personal information with third parties for marketing purposes.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>6. Your Rights</h2>
+    <p>You have the right to:</p>
+    <ul>
+      <li><strong>Access:</strong> View the data stored on your device through the app's History and Saved screens.</li>
+      <li><strong>Delete:</strong> Remove all app data at any time through Settings.</li>
+      <li><strong>Opt-out:</strong> Disable camera or microphone access through your device settings.</li>
+      <li><strong>Export:</strong> You can manually copy or screenshot translations for your records.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>7. Children's Privacy</h2>
+    <p>MedTranslate AR is not intended for use by children under the age of 13. We do not knowingly collect personal information from children. If you are a parent or guardian and believe your child has provided us with personal information, please contact us at <a href="mailto:medtranslatear@gmail.com">medtranslatear@gmail.com</a>.</p>
+  </section>
+
+  <section>
+    <h2>8. Medical Information Disclaimer</h2>
+    <p>This app provides translations and simplifications of prescription information for educational purposes only. The information provided by MedTranslate AR:</p>
+    <ul>
+      <li>Is not a substitute for professional medical advice, diagnosis, or treatment.</li>
+      <li>Should not be used to make decisions about medication without consulting a healthcare provider.</li>
+      <li>May contain errors or inaccuracies in translation or interpretation.</li>
+    </ul>
+    <div class="highlight-box">
+      Always follow your healthcare provider's instructions and consult your pharmacist or doctor if you have questions about your medication.
+    </div>
+  </section>
+
+  <section>
+    <h2>9. Changes to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy from time to time. We will notify you of any material changes by:</p>
+    <ul>
+      <li>Posting the new Privacy Policy on this page</li>
+      <li>Updating the "Last Updated" date</li>
+      <li>Notifying users through the app if required by applicable law</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>10. Contact Information</h2>
+    <p>If you have questions about this Privacy Policy or our data practices, please contact us:</p>
+    <ul>
+      <li><strong>Email:</strong> <a href="mailto:medtranslatear@gmail.com">medtranslatear@gmail.com</a></li>
+      <li><strong>Website:</strong> <a href="https://medtranslatear.github.io/medtranslatear-privacy" target="_blank">medtranslatear.github.io/medtranslatear-privacy</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>11. Jurisdiction</h2>
+    <p>This Privacy Policy is governed by the laws of the State of California. Any disputes arising under this Privacy Policy shall be subject to the exclusive jurisdiction of the courts of Orange County, California.</p>
+  </section>
+
+</div>
+
+<footer>
+  <p><strong>MedTranslate AR</strong> &nbsp;·&nbsp; © 2026 &nbsp;·&nbsp; <a href="mailto:medtranslatear@gmail.com">medtranslatear@gmail.com</a></p>
+</footer>
+
+</body>
+</html>
